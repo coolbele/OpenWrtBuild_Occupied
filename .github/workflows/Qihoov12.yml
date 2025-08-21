@@ -14,8 +14,8 @@ on:
     - cron: '0 17 * * *'
 
 env:
-  REPO_URL: https://github.com/aoxueos/openwrt
-  REPO_BRANCH: ipq60xx-5.15
+  REPO_URL: https://github.com/YumesomeZakura/openwrt
+  REPO_BRANCH: master
   CONFIG_FILE: configs/qihoo2.config
   FEEDS_CONF: feeds.conf.default
   DIY_SCRIPT: diy-ax6.sh
